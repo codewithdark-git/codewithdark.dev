@@ -1,0 +1,48 @@
+{
+  "Python Developer": {
+    "count": 10,
+    "percentage": 90,
+    "icon": "SiPython"
+  },
+  "OpenCV": {
+    "count": 5,
+    "percentage": 50,
+    "icon": "SiOpencv"
+  },
+  "Hugging Face": {
+    "count": 7,
+    "percentage": 65,
+    "icon": "SiHuggingface"
+  },
+  "Streamlit": {
+    "count": 8,
+    "percentage": 75,
+    "icon": "SiStreamlit"
+  },
+  "Flask": {
+    "count": 7,
+    "percentage": 70,
+    "icon": "SiFlask"
+  },
+  "API Development": {
+    "count": 6,
+    "percentage": 60,
+    "icon": "FaServer"
+  },
+  "Web Scripting": {
+    "count": 7,
+    "percentage": 70,
+    "icon": "FaCode"
+  },
+  "GitHub": {
+    "count": 8,
+    "percentage": 80,
+    "icon": "SiGithub"
+  },
+  "Image Processing": {
+    "count": 4,
+    "percentage": 40,
+    "icon": "FaImage"
+  }
+}
+
