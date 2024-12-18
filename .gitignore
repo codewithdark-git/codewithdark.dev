@@ -24,3 +24,5 @@ TestResults.xml
 node_modules/
 
 .next/
+
+minimal-next-app/
