@@ -1,4 +1,26 @@
 {
-  "cssImports": {},
-  "cssModules": {}
+  "cssImports": {
+    "D:\\CodeBackground\\codewithdark.dev\\portfolio\\app\\layout.tsx": [
+      "D:\\CodeBackground\\codewithdark.dev\\portfolio\\node_modules\\next\\font\\google\\target.css?{\"path\":\"app\\\\layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"],\"variable\":\"--font-sans\"}],\"variableName\":\"inter\"}",
+      "D:\\CodeBackground\\codewithdark.dev\\portfolio\\app\\globals.css"
+    ]
+  },
+  "cssModules": {
+    "D:\\CodeBackground\\codewithdark.dev\\portfolio\\app\\page": [
+      "D:\\CodeBackground\\codewithdark.dev\\portfolio\\app\\globals.css",
+      "D:\\CodeBackground\\codewithdark.dev\\portfolio\\node_modules\\next\\font\\google\\target.css?{\"path\":\"app\\\\layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"],\"variable\":\"--font-sans\"}],\"variableName\":\"inter\"}"
+    ],
+    "D:\\CodeBackground\\codewithdark.dev\\portfolio\\app\\projects\\[slug]\\page": [
+      "D:\\CodeBackground\\codewithdark.dev\\portfolio\\app\\globals.css",
+      "D:\\CodeBackground\\codewithdark.dev\\portfolio\\node_modules\\next\\font\\google\\target.css?{\"path\":\"app\\\\layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"],\"variable\":\"--font-sans\"}],\"variableName\":\"inter\"}"
+    ],
+    "D:\\CodeBackground\\codewithdark.dev\\portfolio\\app\\blog\\[slug]\\page": [
+      "D:\\CodeBackground\\codewithdark.dev\\portfolio\\app\\globals.css",
+      "D:\\CodeBackground\\codewithdark.dev\\portfolio\\node_modules\\next\\font\\google\\target.css?{\"path\":\"app\\\\layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"],\"variable\":\"--font-sans\"}],\"variableName\":\"inter\"}"
+    ],
+    "D:\\CodeBackground\\codewithdark.dev\\portfolio\\app\\blog\\page": [
+      "D:\\CodeBackground\\codewithdark.dev\\portfolio\\app\\globals.css",
+      "D:\\CodeBackground\\codewithdark.dev\\portfolio\\node_modules\\next\\font\\google\\target.css?{\"path\":\"app\\\\layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"],\"variable\":\"--font-sans\"}],\"variableName\":\"inter\"}"
+    ]
+  }
 }

@@ -25,4 +25,5 @@ node_modules/
 
 minimal-next-app/
 
+#ingore the next module
 .next/
