@@ -5,6 +5,7 @@ import { ThemeProvider } from "@/components/theme-provider"
 import Navigation from "@/components/navigation"
 import { SocialLinksDialog } from "@/components/social-links-dialog"
 
+
 const inter = Inter({ 
   subsets: ["latin"],
   variable: "--font-sans",
