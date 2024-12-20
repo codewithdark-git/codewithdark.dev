@@ -20,7 +20,7 @@ export default async function BlogPost({ params }: { params: { slug: string } })
     <main className="pt-16 pb-8">
       <article className="container mx-auto px-4 max-w-3xl">
         <header className="mb-8">
-          <h1 className="text-4xl font-bold mb-4">{post.title}</h1>
+          <h1 className="text-4xl font-bold mb-4">{post.}</h1>
           <div className="text-gray-400">
             {format(new Date(post.date), "MMMM d, yyyy")} • {post.readTime} read
           </div>
