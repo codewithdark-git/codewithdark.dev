@@ -1,6 +1,6 @@
 import { getMarkdownContent, getAllMarkdownFiles } from '@/utils/markdown';
-import { notFound } from "next/navigation"
-import { format } from "date-fns"
+import { notFound } from "next/navigation";
+import { format } from "date-fns";
 
 export async function generateStaticParams() {
   const posts = await getAllMarkdownFiles('blog');
@@ -12,15 +12,15 @@ export async function generateStaticParams() {
 export default async function BlogPost({ params }: { params: { slug: string } }) {
   const post = await getMarkdownContent('blog', params.slug);
 
-  if (!post) {
-    notFound()
+  if (!post || !post.title || !post.date) {
+    notFound();
   }
 
   return (
     <main className="pt-16 pb-8">
       <article className="container mx-auto px-4 max-w-3xl">
         <header className="mb-8">
-          <h1 className="text-4xl font-bold mb-4">{post.}</h1>
+          <h1 className="text-4xl font-bold mb-4">{post.title}</h1>
           <div className="text-gray-400">
             {format(new Date(post.date), "MMMM d, yyyy")} • {post.readTime} read
           </div>
@@ -31,6 +31,5 @@ export default async function BlogPost({ params }: { params: { slug: string } })
         />
       </article>
     </main>
-  )
+  );
 }
-
