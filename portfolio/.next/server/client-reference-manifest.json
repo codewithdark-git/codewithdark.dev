@@ -176,212 +176,6 @@
         "async": false
       }
     },
-    "(app-client)/./node_modules/next/dist/client/image.js": {
-      "*": {
-        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
-        "name": "",
-        "chunks": [],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
-        "name": "default",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./node_modules/next/dist/shared/lib/head.js": {
-      "*": {
-        "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
-        "name": "",
-        "chunks": [],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
-        "name": "default",
-        "chunks": [],
-        "async": false
-      },
-      "defaultHead": {
-        "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
-        "name": "defaultHead",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js": {
-      "*": {
-        "id": "(sc_client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
-        "name": "",
-        "chunks": [],
-        "async": false
-      },
-      "suspense": {
-        "id": "(sc_client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
-        "name": "suspense",
-        "chunks": [],
-        "async": false
-      },
-      "NoSSR": {
-        "id": "(sc_client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
-        "name": "NoSSR",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./components/skills-section.tsx": {
-      "*": {
-        "id": "(sc_client)/./components/skills-section.tsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./components/skills-section.tsx",
-        "name": "",
-        "chunks": [],
-        "async": false
-      },
-      "SkillsSection": {
-        "id": "(sc_client)/./components/skills-section.tsx",
-        "name": "SkillsSection",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./components/social-links-dialog.tsx": {
-      "*": {
-        "id": "(sc_client)/./components/social-links-dialog.tsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./components/social-links-dialog.tsx",
-        "name": "",
-        "chunks": [],
-        "async": false
-      },
-      "SocialLinksDialog": {
-        "id": "(sc_client)/./components/social-links-dialog.tsx",
-        "name": "SocialLinksDialog",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./components/ui/dialog.tsx": {
-      "*": {
-        "id": "(sc_client)/./components/ui/dialog.tsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./components/ui/dialog.tsx",
-        "name": "",
-        "chunks": [],
-        "async": false
-      },
-      "Dialog": {
-        "id": "(sc_client)/./components/ui/dialog.tsx",
-        "name": "Dialog",
-        "chunks": [],
-        "async": false
-      },
-      "DialogClose": {
-        "id": "(sc_client)/./components/ui/dialog.tsx",
-        "name": "DialogClose",
-        "chunks": [],
-        "async": false
-      },
-      "DialogContent": {
-        "id": "(sc_client)/./components/ui/dialog.tsx",
-        "name": "DialogContent",
-        "chunks": [],
-        "async": false
-      },
-      "DialogDescription": {
-        "id": "(sc_client)/./components/ui/dialog.tsx",
-        "name": "DialogDescription",
-        "chunks": [],
-        "async": false
-      },
-      "DialogFooter": {
-        "id": "(sc_client)/./components/ui/dialog.tsx",
-        "name": "DialogFooter",
-        "chunks": [],
-        "async": false
-      },
-      "DialogHeader": {
-        "id": "(sc_client)/./components/ui/dialog.tsx",
-        "name": "DialogHeader",
-        "chunks": [],
-        "async": false
-      },
-      "DialogOverlay": {
-        "id": "(sc_client)/./components/ui/dialog.tsx",
-        "name": "DialogOverlay",
-        "chunks": [],
-        "async": false
-      },
-      "DialogPortal": {
-        "id": "(sc_client)/./components/ui/dialog.tsx",
-        "name": "DialogPortal",
-        "chunks": [],
-        "async": false
-      },
-      "DialogTitle": {
-        "id": "(sc_client)/./components/ui/dialog.tsx",
-        "name": "DialogTitle",
-        "chunks": [],
-        "async": false
-      },
-      "DialogTrigger": {
-        "id": "(sc_client)/./components/ui/dialog.tsx",
-        "name": "DialogTrigger",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./node_modules/next/dist/client/link.js": {
-      "*": {
-        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
-        "name": "",
-        "chunks": [],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
-        "name": "default",
-        "chunks": [],
-        "async": false
-      }
-    },
     "(app-client)/./components/mode-toggle.tsx": {
       "*": {
         "id": "(sc_client)/./components/mode-toggle.tsx",
@@ -542,6 +336,212 @@
       "DropdownMenuTrigger": {
         "id": "(sc_client)/./components/ui/dropdown-menu.tsx",
         "name": "DropdownMenuTrigger",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/link.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "",
+        "chunks": [],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "default",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./components/skills-section.tsx": {
+      "*": {
+        "id": "(sc_client)/./components/skills-section.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./components/skills-section.tsx",
+        "name": "",
+        "chunks": [],
+        "async": false
+      },
+      "SkillsSection": {
+        "id": "(sc_client)/./components/skills-section.tsx",
+        "name": "SkillsSection",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./components/social-links-dialog.tsx": {
+      "*": {
+        "id": "(sc_client)/./components/social-links-dialog.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./components/social-links-dialog.tsx",
+        "name": "",
+        "chunks": [],
+        "async": false
+      },
+      "SocialLinksDialog": {
+        "id": "(sc_client)/./components/social-links-dialog.tsx",
+        "name": "SocialLinksDialog",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./components/ui/dialog.tsx": {
+      "*": {
+        "id": "(sc_client)/./components/ui/dialog.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./components/ui/dialog.tsx",
+        "name": "",
+        "chunks": [],
+        "async": false
+      },
+      "Dialog": {
+        "id": "(sc_client)/./components/ui/dialog.tsx",
+        "name": "Dialog",
+        "chunks": [],
+        "async": false
+      },
+      "DialogClose": {
+        "id": "(sc_client)/./components/ui/dialog.tsx",
+        "name": "DialogClose",
+        "chunks": [],
+        "async": false
+      },
+      "DialogContent": {
+        "id": "(sc_client)/./components/ui/dialog.tsx",
+        "name": "DialogContent",
+        "chunks": [],
+        "async": false
+      },
+      "DialogDescription": {
+        "id": "(sc_client)/./components/ui/dialog.tsx",
+        "name": "DialogDescription",
+        "chunks": [],
+        "async": false
+      },
+      "DialogFooter": {
+        "id": "(sc_client)/./components/ui/dialog.tsx",
+        "name": "DialogFooter",
+        "chunks": [],
+        "async": false
+      },
+      "DialogHeader": {
+        "id": "(sc_client)/./components/ui/dialog.tsx",
+        "name": "DialogHeader",
+        "chunks": [],
+        "async": false
+      },
+      "DialogOverlay": {
+        "id": "(sc_client)/./components/ui/dialog.tsx",
+        "name": "DialogOverlay",
+        "chunks": [],
+        "async": false
+      },
+      "DialogPortal": {
+        "id": "(sc_client)/./components/ui/dialog.tsx",
+        "name": "DialogPortal",
+        "chunks": [],
+        "async": false
+      },
+      "DialogTitle": {
+        "id": "(sc_client)/./components/ui/dialog.tsx",
+        "name": "DialogTitle",
+        "chunks": [],
+        "async": false
+      },
+      "DialogTrigger": {
+        "id": "(sc_client)/./components/ui/dialog.tsx",
+        "name": "DialogTrigger",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/image.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
+        "name": "",
+        "chunks": [],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/image.js",
+        "name": "default",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/shared/lib/head.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
+        "name": "",
+        "chunks": [],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
+        "name": "default",
+        "chunks": [],
+        "async": false
+      },
+      "defaultHead": {
+        "id": "(sc_client)/./node_modules/next/dist/shared/lib/head.js",
+        "name": "defaultHead",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
+        "name": "",
+        "chunks": [],
+        "async": false
+      },
+      "suspense": {
+        "id": "(sc_client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
+        "name": "suspense",
+        "chunks": [],
+        "async": false
+      },
+      "NoSSR": {
+        "id": "(sc_client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
+        "name": "NoSSR",
         "chunks": [],
         "async": false
       }
@@ -1221,374 +1221,6 @@
       ],
       "async": false
     },
-    "D:\\CodeBackground\\codewithdark.dev\\portfolio\\node_modules\\next\\dist\\client\\image.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/image.js",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "D:\\CodeBackground\\codewithdark.dev\\portfolio\\node_modules\\next\\dist\\esm\\client\\image.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/image.js",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "D:\\CodeBackground\\codewithdark.dev\\portfolio\\node_modules\\next\\dist\\client\\image.js#": {
-      "id": "(app-client)/./node_modules/next/dist/client/image.js",
-      "name": "",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "D:\\CodeBackground\\codewithdark.dev\\portfolio\\node_modules\\next\\dist\\esm\\client\\image.js#": {
-      "id": "(app-client)/./node_modules/next/dist/client/image.js",
-      "name": "",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "D:\\CodeBackground\\codewithdark.dev\\portfolio\\node_modules\\next\\dist\\client\\image.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/client/image.js",
-      "name": "default",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "D:\\CodeBackground\\codewithdark.dev\\portfolio\\node_modules\\next\\dist\\esm\\client\\image.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/client/image.js",
-      "name": "default",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "D:\\CodeBackground\\codewithdark.dev\\portfolio\\node_modules\\next\\dist\\shared\\lib\\head.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "D:\\CodeBackground\\codewithdark.dev\\portfolio\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "D:\\CodeBackground\\codewithdark.dev\\portfolio\\node_modules\\next\\dist\\shared\\lib\\head.js#": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "D:\\CodeBackground\\codewithdark.dev\\portfolio\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "D:\\CodeBackground\\codewithdark.dev\\portfolio\\node_modules\\next\\dist\\shared\\lib\\head.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "default",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "D:\\CodeBackground\\codewithdark.dev\\portfolio\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "default",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "D:\\CodeBackground\\codewithdark.dev\\portfolio\\node_modules\\next\\dist\\shared\\lib\\head.js#defaultHead": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "defaultHead",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "D:\\CodeBackground\\codewithdark.dev\\portfolio\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#defaultHead": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "defaultHead",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "D:\\CodeBackground\\codewithdark.dev\\portfolio\\node_modules\\next\\dist\\shared\\lib\\lazy-dynamic\\dynamic-no-ssr.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
-      "name": "*",
-      "chunks": [
-        "app/projects/[slug]/page:static/chunks/app/projects/[slug]/page.js"
-      ],
-      "async": false
-    },
-    "D:\\CodeBackground\\codewithdark.dev\\portfolio\\node_modules\\next\\dist\\esm\\shared\\lib\\lazy-dynamic\\dynamic-no-ssr.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
-      "name": "*",
-      "chunks": [
-        "app/projects/[slug]/page:static/chunks/app/projects/[slug]/page.js"
-      ],
-      "async": false
-    },
-    "D:\\CodeBackground\\codewithdark.dev\\portfolio\\node_modules\\next\\dist\\shared\\lib\\lazy-dynamic\\dynamic-no-ssr.js#": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
-      "name": "",
-      "chunks": [
-        "app/projects/[slug]/page:static/chunks/app/projects/[slug]/page.js"
-      ],
-      "async": false
-    },
-    "D:\\CodeBackground\\codewithdark.dev\\portfolio\\node_modules\\next\\dist\\esm\\shared\\lib\\lazy-dynamic\\dynamic-no-ssr.js#": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
-      "name": "",
-      "chunks": [
-        "app/projects/[slug]/page:static/chunks/app/projects/[slug]/page.js"
-      ],
-      "async": false
-    },
-    "D:\\CodeBackground\\codewithdark.dev\\portfolio\\node_modules\\next\\dist\\shared\\lib\\lazy-dynamic\\dynamic-no-ssr.js#suspense": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
-      "name": "suspense",
-      "chunks": [
-        "app/projects/[slug]/page:static/chunks/app/projects/[slug]/page.js"
-      ],
-      "async": false
-    },
-    "D:\\CodeBackground\\codewithdark.dev\\portfolio\\node_modules\\next\\dist\\esm\\shared\\lib\\lazy-dynamic\\dynamic-no-ssr.js#suspense": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
-      "name": "suspense",
-      "chunks": [
-        "app/projects/[slug]/page:static/chunks/app/projects/[slug]/page.js"
-      ],
-      "async": false
-    },
-    "D:\\CodeBackground\\codewithdark.dev\\portfolio\\node_modules\\next\\dist\\shared\\lib\\lazy-dynamic\\dynamic-no-ssr.js#NoSSR": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
-      "name": "NoSSR",
-      "chunks": [
-        "app/projects/[slug]/page:static/chunks/app/projects/[slug]/page.js"
-      ],
-      "async": false
-    },
-    "D:\\CodeBackground\\codewithdark.dev\\portfolio\\node_modules\\next\\dist\\esm\\shared\\lib\\lazy-dynamic\\dynamic-no-ssr.js#NoSSR": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
-      "name": "NoSSR",
-      "chunks": [
-        "app/projects/[slug]/page:static/chunks/app/projects/[slug]/page.js"
-      ],
-      "async": false
-    },
-    "D:\\CodeBackground\\codewithdark.dev\\portfolio\\components\\skills-section.tsx": {
-      "id": "(app-client)/./components/skills-section.tsx",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "D:\\CodeBackground\\codewithdark.dev\\portfolio\\components\\skills-section.tsx#": {
-      "id": "(app-client)/./components/skills-section.tsx",
-      "name": "",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "D:\\CodeBackground\\codewithdark.dev\\portfolio\\components\\skills-section.tsx#SkillsSection": {
-      "id": "(app-client)/./components/skills-section.tsx",
-      "name": "SkillsSection",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "D:\\CodeBackground\\codewithdark.dev\\portfolio\\components\\social-links-dialog.tsx": {
-      "id": "(app-client)/./components/social-links-dialog.tsx",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "D:\\CodeBackground\\codewithdark.dev\\portfolio\\components\\social-links-dialog.tsx#": {
-      "id": "(app-client)/./components/social-links-dialog.tsx",
-      "name": "",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "D:\\CodeBackground\\codewithdark.dev\\portfolio\\components\\social-links-dialog.tsx#SocialLinksDialog": {
-      "id": "(app-client)/./components/social-links-dialog.tsx",
-      "name": "SocialLinksDialog",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "D:\\CodeBackground\\codewithdark.dev\\portfolio\\components\\ui\\dialog.tsx": {
-      "id": "(app-client)/./components/ui/dialog.tsx",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "D:\\CodeBackground\\codewithdark.dev\\portfolio\\components\\ui\\dialog.tsx#": {
-      "id": "(app-client)/./components/ui/dialog.tsx",
-      "name": "",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "D:\\CodeBackground\\codewithdark.dev\\portfolio\\components\\ui\\dialog.tsx#Dialog": {
-      "id": "(app-client)/./components/ui/dialog.tsx",
-      "name": "Dialog",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "D:\\CodeBackground\\codewithdark.dev\\portfolio\\components\\ui\\dialog.tsx#DialogClose": {
-      "id": "(app-client)/./components/ui/dialog.tsx",
-      "name": "DialogClose",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "D:\\CodeBackground\\codewithdark.dev\\portfolio\\components\\ui\\dialog.tsx#DialogContent": {
-      "id": "(app-client)/./components/ui/dialog.tsx",
-      "name": "DialogContent",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "D:\\CodeBackground\\codewithdark.dev\\portfolio\\components\\ui\\dialog.tsx#DialogDescription": {
-      "id": "(app-client)/./components/ui/dialog.tsx",
-      "name": "DialogDescription",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "D:\\CodeBackground\\codewithdark.dev\\portfolio\\components\\ui\\dialog.tsx#DialogFooter": {
-      "id": "(app-client)/./components/ui/dialog.tsx",
-      "name": "DialogFooter",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "D:\\CodeBackground\\codewithdark.dev\\portfolio\\components\\ui\\dialog.tsx#DialogHeader": {
-      "id": "(app-client)/./components/ui/dialog.tsx",
-      "name": "DialogHeader",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "D:\\CodeBackground\\codewithdark.dev\\portfolio\\components\\ui\\dialog.tsx#DialogOverlay": {
-      "id": "(app-client)/./components/ui/dialog.tsx",
-      "name": "DialogOverlay",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "D:\\CodeBackground\\codewithdark.dev\\portfolio\\components\\ui\\dialog.tsx#DialogPortal": {
-      "id": "(app-client)/./components/ui/dialog.tsx",
-      "name": "DialogPortal",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "D:\\CodeBackground\\codewithdark.dev\\portfolio\\components\\ui\\dialog.tsx#DialogTitle": {
-      "id": "(app-client)/./components/ui/dialog.tsx",
-      "name": "DialogTitle",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "D:\\CodeBackground\\codewithdark.dev\\portfolio\\components\\ui\\dialog.tsx#DialogTrigger": {
-      "id": "(app-client)/./components/ui/dialog.tsx",
-      "name": "DialogTrigger",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "D:\\CodeBackground\\codewithdark.dev\\portfolio\\node_modules\\next\\dist\\client\\link.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "D:\\CodeBackground\\codewithdark.dev\\portfolio\\node_modules\\next\\dist\\esm\\client\\link.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "D:\\CodeBackground\\codewithdark.dev\\portfolio\\node_modules\\next\\dist\\client\\link.js#": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "D:\\CodeBackground\\codewithdark.dev\\portfolio\\node_modules\\next\\dist\\esm\\client\\link.js#": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "D:\\CodeBackground\\codewithdark.dev\\portfolio\\node_modules\\next\\dist\\client\\link.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "default",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "D:\\CodeBackground\\codewithdark.dev\\portfolio\\node_modules\\next\\dist\\esm\\client\\link.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "default",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
     "D:\\CodeBackground\\codewithdark.dev\\portfolio\\app\\globals.css#": {
       "id": "null",
       "name": "default",
@@ -1808,6 +1440,374 @@
       "name": "DropdownMenuTrigger",
       "chunks": [
         "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "D:\\CodeBackground\\codewithdark.dev\\portfolio\\node_modules\\next\\dist\\client\\link.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "D:\\CodeBackground\\codewithdark.dev\\portfolio\\node_modules\\next\\dist\\esm\\client\\link.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "D:\\CodeBackground\\codewithdark.dev\\portfolio\\node_modules\\next\\dist\\client\\link.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "D:\\CodeBackground\\codewithdark.dev\\portfolio\\node_modules\\next\\dist\\esm\\client\\link.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "D:\\CodeBackground\\codewithdark.dev\\portfolio\\node_modules\\next\\dist\\client\\link.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "default",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "D:\\CodeBackground\\codewithdark.dev\\portfolio\\node_modules\\next\\dist\\esm\\client\\link.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "default",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "D:\\CodeBackground\\codewithdark.dev\\portfolio\\components\\skills-section.tsx": {
+      "id": "(app-client)/./components/skills-section.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "D:\\CodeBackground\\codewithdark.dev\\portfolio\\components\\skills-section.tsx#": {
+      "id": "(app-client)/./components/skills-section.tsx",
+      "name": "",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "D:\\CodeBackground\\codewithdark.dev\\portfolio\\components\\skills-section.tsx#SkillsSection": {
+      "id": "(app-client)/./components/skills-section.tsx",
+      "name": "SkillsSection",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "D:\\CodeBackground\\codewithdark.dev\\portfolio\\components\\social-links-dialog.tsx": {
+      "id": "(app-client)/./components/social-links-dialog.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "D:\\CodeBackground\\codewithdark.dev\\portfolio\\components\\social-links-dialog.tsx#": {
+      "id": "(app-client)/./components/social-links-dialog.tsx",
+      "name": "",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "D:\\CodeBackground\\codewithdark.dev\\portfolio\\components\\social-links-dialog.tsx#SocialLinksDialog": {
+      "id": "(app-client)/./components/social-links-dialog.tsx",
+      "name": "SocialLinksDialog",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "D:\\CodeBackground\\codewithdark.dev\\portfolio\\components\\ui\\dialog.tsx": {
+      "id": "(app-client)/./components/ui/dialog.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "D:\\CodeBackground\\codewithdark.dev\\portfolio\\components\\ui\\dialog.tsx#": {
+      "id": "(app-client)/./components/ui/dialog.tsx",
+      "name": "",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "D:\\CodeBackground\\codewithdark.dev\\portfolio\\components\\ui\\dialog.tsx#Dialog": {
+      "id": "(app-client)/./components/ui/dialog.tsx",
+      "name": "Dialog",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "D:\\CodeBackground\\codewithdark.dev\\portfolio\\components\\ui\\dialog.tsx#DialogClose": {
+      "id": "(app-client)/./components/ui/dialog.tsx",
+      "name": "DialogClose",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "D:\\CodeBackground\\codewithdark.dev\\portfolio\\components\\ui\\dialog.tsx#DialogContent": {
+      "id": "(app-client)/./components/ui/dialog.tsx",
+      "name": "DialogContent",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "D:\\CodeBackground\\codewithdark.dev\\portfolio\\components\\ui\\dialog.tsx#DialogDescription": {
+      "id": "(app-client)/./components/ui/dialog.tsx",
+      "name": "DialogDescription",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "D:\\CodeBackground\\codewithdark.dev\\portfolio\\components\\ui\\dialog.tsx#DialogFooter": {
+      "id": "(app-client)/./components/ui/dialog.tsx",
+      "name": "DialogFooter",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "D:\\CodeBackground\\codewithdark.dev\\portfolio\\components\\ui\\dialog.tsx#DialogHeader": {
+      "id": "(app-client)/./components/ui/dialog.tsx",
+      "name": "DialogHeader",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "D:\\CodeBackground\\codewithdark.dev\\portfolio\\components\\ui\\dialog.tsx#DialogOverlay": {
+      "id": "(app-client)/./components/ui/dialog.tsx",
+      "name": "DialogOverlay",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "D:\\CodeBackground\\codewithdark.dev\\portfolio\\components\\ui\\dialog.tsx#DialogPortal": {
+      "id": "(app-client)/./components/ui/dialog.tsx",
+      "name": "DialogPortal",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "D:\\CodeBackground\\codewithdark.dev\\portfolio\\components\\ui\\dialog.tsx#DialogTitle": {
+      "id": "(app-client)/./components/ui/dialog.tsx",
+      "name": "DialogTitle",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "D:\\CodeBackground\\codewithdark.dev\\portfolio\\components\\ui\\dialog.tsx#DialogTrigger": {
+      "id": "(app-client)/./components/ui/dialog.tsx",
+      "name": "DialogTrigger",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "D:\\CodeBackground\\codewithdark.dev\\portfolio\\node_modules\\next\\dist\\client\\image.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "*",
+      "chunks": [
+        "app/projects/[slug]/page:static/chunks/app/projects/[slug]/page.js"
+      ],
+      "async": false
+    },
+    "D:\\CodeBackground\\codewithdark.dev\\portfolio\\node_modules\\next\\dist\\esm\\client\\image.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "*",
+      "chunks": [
+        "app/projects/[slug]/page:static/chunks/app/projects/[slug]/page.js"
+      ],
+      "async": false
+    },
+    "D:\\CodeBackground\\codewithdark.dev\\portfolio\\node_modules\\next\\dist\\client\\image.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "",
+      "chunks": [
+        "app/projects/[slug]/page:static/chunks/app/projects/[slug]/page.js"
+      ],
+      "async": false
+    },
+    "D:\\CodeBackground\\codewithdark.dev\\portfolio\\node_modules\\next\\dist\\esm\\client\\image.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "",
+      "chunks": [
+        "app/projects/[slug]/page:static/chunks/app/projects/[slug]/page.js"
+      ],
+      "async": false
+    },
+    "D:\\CodeBackground\\codewithdark.dev\\portfolio\\node_modules\\next\\dist\\client\\image.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "default",
+      "chunks": [
+        "app/projects/[slug]/page:static/chunks/app/projects/[slug]/page.js"
+      ],
+      "async": false
+    },
+    "D:\\CodeBackground\\codewithdark.dev\\portfolio\\node_modules\\next\\dist\\esm\\client\\image.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "default",
+      "chunks": [
+        "app/projects/[slug]/page:static/chunks/app/projects/[slug]/page.js"
+      ],
+      "async": false
+    },
+    "D:\\CodeBackground\\codewithdark.dev\\portfolio\\node_modules\\next\\dist\\shared\\lib\\head.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "*",
+      "chunks": [
+        "app/projects/[slug]/page:static/chunks/app/projects/[slug]/page.js"
+      ],
+      "async": false
+    },
+    "D:\\CodeBackground\\codewithdark.dev\\portfolio\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "*",
+      "chunks": [
+        "app/projects/[slug]/page:static/chunks/app/projects/[slug]/page.js"
+      ],
+      "async": false
+    },
+    "D:\\CodeBackground\\codewithdark.dev\\portfolio\\node_modules\\next\\dist\\shared\\lib\\head.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "",
+      "chunks": [
+        "app/projects/[slug]/page:static/chunks/app/projects/[slug]/page.js"
+      ],
+      "async": false
+    },
+    "D:\\CodeBackground\\codewithdark.dev\\portfolio\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "",
+      "chunks": [
+        "app/projects/[slug]/page:static/chunks/app/projects/[slug]/page.js"
+      ],
+      "async": false
+    },
+    "D:\\CodeBackground\\codewithdark.dev\\portfolio\\node_modules\\next\\dist\\shared\\lib\\head.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "default",
+      "chunks": [
+        "app/projects/[slug]/page:static/chunks/app/projects/[slug]/page.js"
+      ],
+      "async": false
+    },
+    "D:\\CodeBackground\\codewithdark.dev\\portfolio\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "default",
+      "chunks": [
+        "app/projects/[slug]/page:static/chunks/app/projects/[slug]/page.js"
+      ],
+      "async": false
+    },
+    "D:\\CodeBackground\\codewithdark.dev\\portfolio\\node_modules\\next\\dist\\shared\\lib\\head.js#defaultHead": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "defaultHead",
+      "chunks": [
+        "app/projects/[slug]/page:static/chunks/app/projects/[slug]/page.js"
+      ],
+      "async": false
+    },
+    "D:\\CodeBackground\\codewithdark.dev\\portfolio\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#defaultHead": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "defaultHead",
+      "chunks": [
+        "app/projects/[slug]/page:static/chunks/app/projects/[slug]/page.js"
+      ],
+      "async": false
+    },
+    "D:\\CodeBackground\\codewithdark.dev\\portfolio\\node_modules\\next\\dist\\shared\\lib\\lazy-dynamic\\dynamic-no-ssr.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
+      "name": "*",
+      "chunks": [
+        "app/projects/[slug]/page:static/chunks/app/projects/[slug]/page.js"
+      ],
+      "async": false
+    },
+    "D:\\CodeBackground\\codewithdark.dev\\portfolio\\node_modules\\next\\dist\\esm\\shared\\lib\\lazy-dynamic\\dynamic-no-ssr.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
+      "name": "*",
+      "chunks": [
+        "app/projects/[slug]/page:static/chunks/app/projects/[slug]/page.js"
+      ],
+      "async": false
+    },
+    "D:\\CodeBackground\\codewithdark.dev\\portfolio\\node_modules\\next\\dist\\shared\\lib\\lazy-dynamic\\dynamic-no-ssr.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
+      "name": "",
+      "chunks": [
+        "app/projects/[slug]/page:static/chunks/app/projects/[slug]/page.js"
+      ],
+      "async": false
+    },
+    "D:\\CodeBackground\\codewithdark.dev\\portfolio\\node_modules\\next\\dist\\esm\\shared\\lib\\lazy-dynamic\\dynamic-no-ssr.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
+      "name": "",
+      "chunks": [
+        "app/projects/[slug]/page:static/chunks/app/projects/[slug]/page.js"
+      ],
+      "async": false
+    },
+    "D:\\CodeBackground\\codewithdark.dev\\portfolio\\node_modules\\next\\dist\\shared\\lib\\lazy-dynamic\\dynamic-no-ssr.js#suspense": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
+      "name": "suspense",
+      "chunks": [
+        "app/projects/[slug]/page:static/chunks/app/projects/[slug]/page.js"
+      ],
+      "async": false
+    },
+    "D:\\CodeBackground\\codewithdark.dev\\portfolio\\node_modules\\next\\dist\\esm\\shared\\lib\\lazy-dynamic\\dynamic-no-ssr.js#suspense": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
+      "name": "suspense",
+      "chunks": [
+        "app/projects/[slug]/page:static/chunks/app/projects/[slug]/page.js"
+      ],
+      "async": false
+    },
+    "D:\\CodeBackground\\codewithdark.dev\\portfolio\\node_modules\\next\\dist\\shared\\lib\\lazy-dynamic\\dynamic-no-ssr.js#NoSSR": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
+      "name": "NoSSR",
+      "chunks": [
+        "app/projects/[slug]/page:static/chunks/app/projects/[slug]/page.js"
+      ],
+      "async": false
+    },
+    "D:\\CodeBackground\\codewithdark.dev\\portfolio\\node_modules\\next\\dist\\esm\\shared\\lib\\lazy-dynamic\\dynamic-no-ssr.js#NoSSR": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/lazy-dynamic/dynamic-no-ssr.js",
+      "name": "NoSSR",
+      "chunks": [
+        "app/projects/[slug]/page:static/chunks/app/projects/[slug]/page.js"
       ],
       "async": false
     }

@@ -4,28 +4,47 @@ import matter from 'gray-matter';
 import { remark } from 'remark';
 import html from 'remark-html';
 
-export async function getMarkdownContent(directory: string, slug: string) {
-  const fullPath = path.join(process.cwd(), 'content', directory, `${slug}.md`);
-  const fileContents = await fs.readFile(fullPath, 'utf8');
-
-  const { data, content } = matter(fileContents);
-
-  const processedContent = await remark()
-    .use(html)
-    .process(content);
-  const contentHtml = processedContent.toString();
-
-  return {
-    slug,
-    title: data.title, // Ensure title is included
-    date: data.date,   // Ensure date is included
-    readTime: data.readTime || "N/A", // Ensure readTime is included, default to "N/A" if not present
-    content: contentHtml,
-  };
+// Define a type for the markdown content
+interface MarkdownContent {
+  slug: string;
+  title: string;
+  date: string;
+  readTime: string;
+  technologies: string[];
+  description: string;
 }
 
+// Function to get content of a specific markdown file
+export async function getMarkdownContent(directory: string, slug: string): Promise<MarkdownContent | null> {
+  const fullPath = path.join(process.cwd(), 'content', directory, `${slug}.md`);
+  
+  try {
+    const fileContents = await fs.readFile(fullPath, 'utf8');
+    const { data, content } = matter(fileContents);
+
+    const processedContent = await remark()
+      .use(html)
+      .process(content);
+    const contentHtml = processedContent.toString();
+
+    return {
+      slug,
+      title: data.title || "Untitled", // Default to "Untitled" if title is missing
+      date: data.date || "Unknown Date", // Default to "Unknown Date" if date is missing
+      readTime: data.readTime || "N/A", // Default to "N/A" if readTime is missing
+      technologies: data.technologies || [],
+      description: contentHtml,
+    };
+  } catch (error) {
+    console.error(`Error reading markdown file at ${fullPath}:`, error);
+    return null; // Return null if there was an error
+  }
+}
+
+// Function to get all markdown files in a directory
 export async function getAllMarkdownFiles(directory: string) {
   const fullPath = path.join(process.cwd(), 'content', directory);
+  
   try {
     const files = await fs.readdir(fullPath);
 
@@ -37,8 +56,12 @@ export async function getAllMarkdownFiles(directory: string) {
 
         return {
           slug: filename.replace('.md', ''),
-          ...data,
+          title: data.title || "Untitled", // Ensure title is included
+          date: data.date || "Unknown Date", // Ensure date is included
+          readTime: data.readTime || "N/A", // Ensure readTime is included
           image: data.image || '/placeholder.svg', // Ensure there's always an image value
+          technologies: data.technologies || [],
+          categories: data.categories || [], // Ensure categories is an array
         };
       })
     );
@@ -47,4 +70,3 @@ export async function getAllMarkdownFiles(directory: string) {
     return []; // Return an empty array if the directory doesn't exist or is empty
   }
 }
-

@@ -172,7 +172,7 @@ export default async function Home() {
                       </div>
                       <div className="p-6">
                         <h3 className="text-2xl font-semibold mb-3 group-hover:text-primary transition-colors">{project.title}</h3>
-                        <p className="text-muted-foreground mb-4">{project.description}</p>
+                        <p className="text-muted-foreground mb-4">{project.contentHtml}</p>
                         <div className="flex flex-wrap gap-2 mt-auto">
                           {project.technologies.map((tech: string) => (
                             <Badge key={tech} variant="secondary" className="bg-primary/10 text-primary">{tech}</Badge>
