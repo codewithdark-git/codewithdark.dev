@@ -9,7 +9,7 @@ import { getAllMarkdownFiles } from '@/utils/markdown'
 import { promises as fs } from 'fs'
 import path from 'path'
 import { SocialLinksDialog } from "@/components/social-links-dialog"
-import { useToast } from "@/hooks/use-toast"
+
 
 export default async function Home() {
   const dataDir = path.join(process.cwd(), 'data')
