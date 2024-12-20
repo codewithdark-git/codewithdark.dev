@@ -17,7 +17,9 @@ export async function getMarkdownContent(directory: string, slug: string) {
 
   return {
     slug,
-    ...data,
+    title: data.title, // Ensure title is included
+    date: data.date,   // Ensure date is included
+    readTime: data.readTime || "N/A", // Ensure readTime is included, default to "N/A" if not present
     content: contentHtml,
   };
 }
