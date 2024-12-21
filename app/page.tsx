@@ -164,11 +164,11 @@ export default async function Home() {
             </div>
           </div>
           
-            <div className="text-emerald-400 absolute -bottom-4 left-1/2 transform -translate-x-1/2 md:left-auto md:right-0 md:translate-x-0 w-max">
-            <Badge className="px-4 py-1.5 text-base font-medium font-bold text-black shadow-lg border-2 flex items-center gap-2">
-              <Zap className="w-4 h-4 font-bold" />
+            <div className="absolute -bottom-[5%] left-[60%] transform translate-y-1/2 -translate-x-1/2">
+              <Badge className="px-6 py-2 text-lg font-medium font-bold bg-emerald-400 text-black shadow-lg border-2 flex items-center gap-3">
+              <Zap className="w-5 h-5 font-bold text-black" />
               Python Developer
-            </Badge>
+              </Badge>
             </div>
         </div>
           </div>
