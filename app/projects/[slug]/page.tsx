@@ -27,10 +27,10 @@ export default async function ProjectPage({ params }: { params: { slug: string }
         <Card className="overflow-hidden mb-8">
           <CardContent className="p-0">
             <Image
-              src={project.image || "/placeholder.svg"}
-              alt={project.title}
+              src={project.image ? "/placeholder.svg" : 'image not found'}
+              alt={project.title} 
               width={1200}
-              height={600}
+              height={400}
               className="w-full h-auto"
             />
           </CardContent>

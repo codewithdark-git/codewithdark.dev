@@ -155,7 +155,7 @@ export default async function Home() {
             <div className="absolute inset-0 bg-gradient-to-tr from-primary/20 to-secondary/20 rounded-2xl transform -rotate-6 group-hover:-rotate-12 transition-transform duration-300"></div>
             <div className="relative bg-background rounded-2xl overflow-hidden shadow-xl">
           <Image
-            src="/placeholder.svg"
+            src="/images/ahsanumar_.png"
             alt="Ahsan Khan"
             width={300}
             height={300}
@@ -214,7 +214,7 @@ export default async function Home() {
             <Card className="h-full hover:shadow-xl transition-all duration-300 border-2 border-muted overflow-hidden">
           <div className="relative h-48 w-full overflow-hidden">
             <Image
-              src={project.image || "/project-placeholder.jpg"}
+              src={project.image ? "placeholder.svg" : 'image not found'}
               alt={project.title || "Project Image"}
               fill
               className="object-cover transform group-hover:scale-110 transition-transform duration-300"

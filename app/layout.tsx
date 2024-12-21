@@ -13,6 +13,15 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Ahsan Khan - Python Developer",
   description: "Portfolio of Ahsan Khan, a Python developer specializing in web development and data analysis.",
+  icons: {
+    icon: "/favicon.png",
+    // You can also add more icon sizes
+    apple: [
+      { url: "/apple-icon.png" },
+      { url: "/apple-icon-72x72.png", sizes: "72x72" },
+      { url: "/apple-icon-114x114.png", sizes: "114x114" },
+    ],
+  },
 }
 
 export default function RootLayout({
