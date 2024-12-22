@@ -57,7 +57,7 @@ const ProjectFilter: React.FC<ProjectFilterProps> = ({ projects }) => {
               <CardContent className="p-0">
                 <div className="relative h-48 w-full">
                   <Image
-                    src={project.image || "/placeholder.svg"}
+                    src={project.image ? "/placeholder.svg" : 'image not found'}
                     alt={project.title}
                     fill
                     className="object-cover rounded-t-lg"
