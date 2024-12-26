@@ -28,9 +28,9 @@ export default async function Home() {
   const recentBlogPosts = (await getAllMarkdownFiles('blog')).slice(0, 4)
 
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col min-h-screen px-4 sm:px-8 md:px-16 lg:px-20 py-10 md:py-20 lg:py-30 bg-background">
       {/* Hero Section */}
-      <section className="relative px-20 py-20 md:py-30 bg-background">
+      <section className="relative">
       <div className="container mx-auto">
         <div className="max-w-4xl space-y-8 md:space-y-10">
         <div>
@@ -51,25 +51,9 @@ export default async function Home() {
                   />
                   ))}
                 </div>
-                <div className="absolute -bottom-80 -right-20 w-40 h-40 grid grid-cols-9 gap-2 opacity-80">
-                    {[...Array(81)].map((_, i) => (
-                    <div 
-                    key={i} 
-                    className="aspect-square bg-emerald-400/30 rounded-full
-                    transform transition-all duration-500 hover:scale-150 hover:bg-emerald-400
-                    animate-[pulse_3s_ease-in-out_infinite]"
-                    style={{
-                    animationDelay: `${i * 0.1}s`
-                    }}
-                    />
-                    ))}
-                </div>
-                {/* Enhanced gradient overlay */}
-                <div className="absolute -inset-6 bg-gradient-to-r from-emerald-400/20 via-emerald-400/10 to-transparent rounded-lg blur-lg -z-10" />
-                <div className="absolute -inset-6 bg-gradient-to-b from-emerald-400/10 to-transparent rounded-lg -z-10" />
                 </h1>
             </div>
-          <h2 className="text-3xl font-extrabold text-gray-400">
+          <h2 className="text-3xl font-bold text-gray-300">
                   Software Engineer. <span className="text-gray-500">A self-taught developer with an interest in Computer Science.</span>
                 </h2>
         </div>
@@ -108,7 +92,7 @@ export default async function Home() {
       </section>
 
       {/* About Section */}
-      <section className="relative px-6 py-32">
+      <section className="relative py-32">
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row items-center gap-16">
         <div className="md:w-1/2 space-y-8">
@@ -155,7 +139,7 @@ export default async function Home() {
             <div className="absolute inset-0 bg-gradient-to-tr from-primary/20 to-secondary/20 rounded-2xl transform -rotate-6 group-hover:-rotate-12 transition-transform duration-300"></div>
             <div className="relative bg-background rounded-2xl overflow-hidden shadow-xl">
           <Image
-            src="/images/ahsanumar_.png"
+            src="/images/AhsanUmar.png"
             alt="Ahsan Khan"
             width={300}
             height={300}
@@ -164,7 +148,7 @@ export default async function Home() {
             </div>
           </div>
           
-            <div className="absolute -bottom-[5%] left-[60%] transform translate-y-1/2 -translate-x-1/2">
+            <div className="absolute -bottom-[5%] left-[50%] transform translate-y-1/2 -translate-x-1/2">
               <Badge className="px-6 py-2 text-lg font-medium font-bold bg-emerald-400 text-black shadow-lg border-2 flex items-center gap-3">
               <Zap className="w-5 h-5 font-bold text-black" />
               Python Developer
@@ -197,79 +181,79 @@ export default async function Home() {
       </section>
 
       {/* Featured Projects Section */}
-      <section className="relative px-10 py-15 bg-background relative">
-        <div className="container mx-auto px-4">
-          <div className="text-center space-y-4 mb-16">
-        <h2 className="text-4xl font-bold text-foreground flex items-center justify-center gap-2">
-          <PenTool className="text-emerald-400" size={32} />
-          Featured Projects
-        </h2>
-        <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-          A collection of my most notable works, showcasing various technologies and problem-solving approaches.
-        </p>
-          </div>
-          <div className="grid md:grid-cols-2 gap-8">
-        {featuredProjects.map((project) => (
-          <Link href={`/projects/${project.slug}`} key={project.slug} className="group">
-            <Card className="h-full hover:shadow-xl transition-all duration-300 border-2 border-muted overflow-hidden">
-          <div className="relative h-48 w-full overflow-hidden">
-            <Image
-              src={project.image ? "placeholder.svg" : 'image not found'}
-              alt={project.title || "Project Image"}
-              fill
-              className="object-cover transform group-hover:scale-110 transition-transform duration-300"
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent" />
-          </div>
-          <CardContent className="p-6 space-y-4">
-            <div className="flex justify-between items-start">
-              <h3 className="text-2xl font-bold group-hover:text-emerald-400 transition-colors">
-            {project.title || "Untitled Project"}
-              </h3>
-              <div className="flex items-center gap-2">
-            <div className="flex gap-2">
-              {project.githubUrl && (
-                <Button variant="ghost" size="icon" asChild className="hover:text-emerald-400">
-              <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
-                <Github size={20} />
-              </a>
-                </Button>
-              )}
+        <section className="relative px-10 py-15 bg-background relative">
+          <div className="container mx-auto px-4">
+            <div className="text-center space-y-4 mb-16">
+          <h2 className="text-4xl font-bold text-foreground flex items-center justify-center gap-2">
+            <PenTool className="text-emerald-400" size={32} />
+            Featured Projects
+          </h2>
+          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+            A collection of my most notable works, showcasing various technologies and problem-solving approaches.
+          </p>
             </div>
-            <Badge variant="secondary" className="bg-emerald-400/10 text-emerald-400">
-              {project.status || "Completed"}
-            </Badge>
-            <ExternalLink className="text-muted-foreground group-hover:text-emerald-400 transition-colors" size={20} />
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+          {featuredProjects.slice(0, 4).map((project) => (
+            <Link href={`/projects/${project.slug}`} key={project.slug} className="group">
+              <Card className="h-full hover:shadow-xl transition-all duration-300 border-2 border-muted overflow-hidden">
+            <div className="relative h-48 w-full overflow-hidden">
+              <Image
+                src={project.image ? "/placeholder.svg" : 'image not found'}
+                alt={project.title || "Project Image"}
+                fill
+                className="object-cover transform group-hover:scale-110 transition-transform duration-300"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent" />
+            </div>
+            <CardContent className="p-6 space-y-4">
+              <div className="flex justify-between items-start">
+                <h3 className="text-2xl font-bold group-hover:text-emerald-400 transition-colors">
+              {project.title || "Untitled Project"}
+                </h3>
+                <div className="flex items-center gap-2">
+              <div className="flex gap-2">
+                {project.githubUrl && (
+                  <Button variant="ghost" size="icon" asChild className="hover:text-emerald-400">
+                <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
+                  <Github size={20} />
+                </a>
+                  </Button>
+                )}
               </div>
+              <Badge variant="secondary" className="bg-emerald-400/10 text-emerald-400">
+                {project.status || "Completed"}
+              </Badge>
+              <ExternalLink className="text-muted-foreground group-hover:text-emerald-400 transition-colors" size={20} />
+                </div>
+              </div>
+              <p className="text-muted-foreground leading-relaxed line-clamp-2">
+                {project.description || "No description available"}
+              </p>
+              <div className="flex flex-wrap gap-2">
+                {project.technologies?.map((tech: string) => (
+              <Badge 
+                key={tech} 
+                variant="secondary"
+                className="bg-muted-foreground/10 text-muted-foreground hover:bg-emerald-400/10 hover:text-emerald-400 transition-colors"
+              >
+                {tech}
+              </Badge>
+                ))}
+              </div>
+            </CardContent>
+              </Card>
+            </Link>
+          ))}
             </div>
-            <p className="text-muted-foreground leading-relaxed line-clamp-2">
-              {project.description || "No description available"}
-            </p>
-            <div className="flex flex-wrap gap-2">
-              {project.technologies?.map((tech: string) => (
-            <Badge 
-              key={tech} 
-              variant="secondary"
-              className="bg-muted-foreground/10 text-muted-foreground hover:bg-emerald-400/10 hover:text-emerald-400 transition-colors"
-            >
-              {tech}
-            </Badge>
-              ))}
+            <div className="mt-12 text-center">
+          <Button asChild className="group hover:bg-emerald-400">
+            <Link href="/projects">
+              View All Projects <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-2" />
+            </Link>
+          </Button>
             </div>
-          </CardContent>
-            </Card>
-          </Link>
-        ))}
           </div>
-          <div className="mt-12 text-center">
-        <Button asChild className="group hover:bg-emerald-400">
-          <Link href="/projects">
-            View All Projects <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-2" />
-          </Link>
-        </Button>
-          </div>
-        </div>
-      </section>
+        </section>
 
       {/* Recent Blog Posts Section */}
       <section className="relative px-10 py-20">
@@ -381,29 +365,6 @@ export default async function Home() {
         <div className="absolute inset-0 bg-grid-white/10 bg-[size:30px_30px] pointer-events-none" />
       </section>
 
-      {/* Footer */}
-      <footer className="py-15 border-t">
-        <div className="container mx-auto px-4 text-center text-muted-foreground space-y-4">
-          <p>
-            © {new Date().getFullYear()} Ahsan Umar. All rights reserved.
-          </p>
-          <p>
-            Built with{" "}
-            <Link href="https://nextjs.org" className="text-primary hover:underline">
-              Next.js
-            </Link>
-            {" & "}
-            <Link href="https://ui.shadcn.com" className="text-primary hover:underline">
-              shadcn/ui
-            </Link>
-            . Hosted on{" "}
-            <Link href="https://vercel.com" className="text-primary hover:underline">
-              Vercel
-            </Link>
-            .
-          </p>
-        </div>
-      </footer>
     </div>
   )
 }
