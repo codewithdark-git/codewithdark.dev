@@ -1,8 +1,8 @@
 ---
-title: "Personal Portfolio Website"
+title: "Implementing Polynomial Regression from Scratch in Python"
 description: "A responsive portfolio website built with Next.js and Tailwind CSS"
 technologies: ["Next.js", "React", "Tailwind CSS"]
-image: "/images/projects/portfolio.png"
+image: "/images/projects/ai-image-recognition.png"
 githubUrl: "https://github.com/yourusername/portfolio"
 liveUrl: "https://your-portfolio-url.com"
 category: "Web Development"
@@ -11,7 +11,7 @@ category: "Web Development"
 
 # Implementing and Comparing Polynomial Regression from Scratch in Python
 
-![Polynomial Regression Header Image](images/header_animated_complex.gif)
+![Polynomial Regression Implementation](https://pin.it/7uXBWbYeW)
 
 ## Introduction
 Polynomial regression extends linear regression by modeling nonlinear relationships using polynomial terms. In this comprehensive guide, we'll implement polynomial regression from scratch, compare it with scikit-learn's implementation, and explore optimization techniques.

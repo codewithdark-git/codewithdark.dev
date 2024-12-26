@@ -2,7 +2,7 @@
 title: "Personal Portfolio Website"
 description: "A responsive portfolio website built with Next.js and Tailwind CSS"
 technologies: ["Next.js", "React", "Tailwind CSS"]
-image: "/images/projects/portfolio.png"
+image: "/images/projects/ai-image-recognition.png"
 githubUrl: "https://github.com/yourusername/portfolio"
 liveUrl: "https://your-portfolio-url.com"
 category: "Web Development"
