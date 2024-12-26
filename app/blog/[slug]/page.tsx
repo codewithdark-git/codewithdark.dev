@@ -6,13 +6,12 @@ import { CalendarIcon, ClockIcon } from 'lucide-react'
 
 export async function generateStaticParams() {
   const posts = await getAllMarkdownFiles('blog');
-  return posts.map((post) => ({
-    slug: post.slug,
-  }));
+  return posts?.map((post) => post ? { slug: post.slug } : null).filter(Boolean);
 }
 
+
 export default async function BlogPost({ params }: { params: { slug: string } }) {
-  const post = await getMarkdownContent('blog', params.slug);
+    const post = await getMarkdownContent('blog', params.slug);
 
   if (!post) {
     notFound()
