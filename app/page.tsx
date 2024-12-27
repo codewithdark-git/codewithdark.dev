@@ -6,7 +6,6 @@ import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { SkillsSection } from "@/components/skills-section"
 import { getAllMarkdownFiles } from '@/utils/markdown'
-import { AIBackground } from "@/components/ai-background"
 import { promises as fs } from 'fs'
 import path from 'path'
 import { SocialLinksDialog } from "@/components/social-links-dialog"
@@ -368,4 +367,3 @@ export default async function Home() {
     </div>
   )
 }
-

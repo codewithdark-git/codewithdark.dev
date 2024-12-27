@@ -20,6 +20,8 @@ export async function processMarkdownFile(filePath: string) {
       ...data,
       slug: filePath.split('/').pop()?.replace('.md', ''),
       content: contentHtml,
+      title: data.title || 'Default Title',
+      technologies: data.technologies || ['Default Technology'],
     },
   };
 }

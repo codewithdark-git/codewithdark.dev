@@ -45,8 +45,10 @@ export async function getMarkdownContent(directory: string, slug: string) {
     title: data.title || title,
     description: data.description || '',
     categories: data.categories || [],
+    category : data.category || '',
     readTime: data.readTime || '',
     content: contentHtml,
+    status : data.status || '',
     image: data.image || '/placeholder.svg',
     githubUrl: data.github || '', // Ensure there's always a GitHub URL value
     technologies: data.technologies || [],
@@ -78,7 +80,9 @@ export async function getAllMarkdownFiles(directory: string) {
           liveUrl: data.url || '',
           readTime: data.readTime || '',
           categories: data.categories || [],
+          category : data.category || '',
           githubUrl: data.github || '',
+          status : data.status || '',
           image: data.image || '/placeholder.svg', // Ensure there's always an image value
           
 
