@@ -12,22 +12,22 @@ const inter = localFont({
   src: [
     {
       path: '../public/fonts/Inter-Regular.ttf',
-      weight: '400',
+      weight: '300',
       style: 'normal',
     },
     {
       path: '../public/fonts/Inter-Medium.ttf',
-      weight: '500',
+      weight: '400',
       style: 'normal',
     },
     {
       path: '../public/fonts/Inter-SemiBold.ttf',
-      weight: '600',
+      weight: '500',
       style: 'normal',
     },
     {
       path: '../public/fonts/Inter-Bold.ttf',
-      weight: '700',
+      weight: '600',
       style: 'normal',
     },
   ],
