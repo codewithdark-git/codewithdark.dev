@@ -50,9 +50,9 @@ export async function getMarkdownContent(directory: string, slug: string) {
     content: contentHtml,
     status : data.status || '',
     image: data.image || '/placeholder.svg',
-    githubUrl: data.github || '', // Ensure there's always a GitHub URL value
+    githubUrl: data.githubUrl || '', // Ensure there's always a GitHub URL value
     technologies: data.technologies || [],
-    liveUrl: data.url || '', // Ensure there's always a URL value
+    liveUrl: data.liveUrl || '', // Ensure there's always a URL value
 
   };
 }
@@ -77,11 +77,11 @@ export async function getAllMarkdownFiles(directory: string) {
           title: data.title || title,
           technologies: data.technologies || [],
           description: data.description || '',
-          liveUrl: data.url || '',
+          liveUrl: data.liveUrl || '',
           readTime: data.readTime || '',
           categories: data.categories || [],
           category : data.category || '',
-          githubUrl: data.github || '',
+          githubUrl: data.githubUrl || '',
           status : data.status || '',
           image: data.image || '/placeholder.svg', // Ensure there's always an image value
           

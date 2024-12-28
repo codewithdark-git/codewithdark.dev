@@ -75,7 +75,7 @@ export default function RootLayout({
                   <li>
                   <Link
                     href="/projects"
-                    className="text-muted-foreground hover:text-emerald-400"
+                    className="text-muted-foreground hover:text-primary"
                   >
                     Projects
                   </Link>
@@ -83,7 +83,7 @@ export default function RootLayout({
                   <li>
                   <Link
                     href="/blog"
-                    className="text-muted-foreground hover:text-emerald-400"
+                    className="text-muted-foreground hover:text-primary"
                   >
                     Blog
                   </Link>
@@ -91,7 +91,7 @@ export default function RootLayout({
                   <li>
                   <Link
                     href="/about"
-                    className="text-muted-foreground hover:text-emerald-400"
+                    className="text-muted-foreground hover:text-primary"
                   >
                     About
                   </Link>
@@ -103,14 +103,14 @@ export default function RootLayout({
                     <div className="flex flex-col space-y-4 items-center">
                       <a
                         href="https://github.com/codewithdark-git"
-                        className="flex items-center space-x-3 text-muted-foreground hover:text-emerald-400 transition-colors duration-200 group"
+                        className="flex items-center space-x-3 text-muted-foreground hover:text-primary transition-colors duration-200 group"
                       >
                         <Github className="w-5 h-5 group-hover:scale-110 transition-transform duration-200" />
                         <span>Follow on GitHub</span>
                       </a>
                       <a
                         href="https://linkedin.com/in/codewithdark"
-                        className="flex items-center space-x-3 text-muted-foreground hover:text-emerald-400 transition-colors duration-200 group"
+                        className="flex items-center space-x-3 text-muted-foreground hover:text-primary transition-colors duration-200 group"
                       >
                         <Linkedin className="w-5 h-5 group-hover:scale-110 transition-transform duration-200" />
                         <span>Connect on LinkedIn</span>

@@ -36,10 +36,10 @@ export default async function Home() {
           <div className="relative">
           <div className="flex items-center gap-2 mb-4">
           <span className="text-emerald-400 text-2xl">👋</span>
-          <span className="text-emerald-400 text-3xl font-medium">Hey there! I'm</span>
+          <span className="text-primary text-3xl font-medium">Hey there! I'm</span>
           </div>
                 <h1 className="text-10xl md:text-9xl font-extrabold mt-2 mb-8 relative" lang="en">
-                Ahsan Umar
+                Ahsan Umar.
                 {/* Decorative elements */}
                 <div className="absolute -top-20 -left-5 w-40 h-40 grid grid-cols-9 gap-2 opacity-20">
                   {[...Array(81)].map((_, i) => (
@@ -59,28 +59,28 @@ export default async function Home() {
         
         <div className="space-y-4 text-xl text-muted-foreground">
           <div className="flex items-center gap-2">
-            <Rocket className="text-emerald-400" size={30} />
+            <Rocket className="text-primary" size={30} />
             <span>Currently specializing in Python & Web Development</span>
           </div>
           <div className="flex text-xl items-center gap-2">
-            <Zap className="text-emerald-400" size={30} />
-            <span>Student at <span className="text-emerald-400" lang="en">Islamia College University</span></span>
+            <Zap className="text-primary" size={30} />
+            <span>Student at <span className="text-primary" lang="en">Islamia College University</span></span>
           </div>
         </div>
         
         <div className="flex gap-4">
           <Button variant="outline" size="icon" asChild>
-            <a href="https://github.com/codewithdark-git" className="text-emerald-400 bg-gray-900 hover:bg-gray-800 px-6 py-2 rounded-lg flex items-center gap-2" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/codewithdark-git" className="text-primary bg-gray-900 hover:bg-gray-800 px-6 py-2 rounded-lg flex items-center gap-2" target="_blank" rel="noopener noreferrer">
               <Github size={20} />
             </a>
           </Button>
           <Button variant="outline" size="icon" asChild>
-            <a href="https://linkedin.com/in/codewithdark" className="text-emerald-400 bg-gray-900 hover:bg-gray-800 px-6 py-2 rounded-lg flex items-center gap-2" target="_blank" rel="noopener noreferrer">
+            <a href="https://linkedin.com/in/codewithdark" className="text-primary bg-gray-900 hover:bg-gray-800 px-6 py-2 rounded-lg flex items-center gap-2" target="_blank" rel="noopener noreferrer">
               <Linkedin size={20} />
             </a>
           </Button>
           <Button variant="outline" size="icon" asChild>
-            <a href="mailto:codewithdark90@gmail.com" className="text-emerald-400 bg-gray-900 hover:bg-gray-800 px-6 py-2 rounded-lg flex items-center gap-2">
+            <a href="mailto:codewithdark90@gmail.com" className="text-primary bg-gray-900 hover:bg-gray-800 px-6 py-2 rounded-lg flex items-center gap-2">
               <Mail size={20} />
             </a>
           </Button>
@@ -97,7 +97,7 @@ export default async function Home() {
         <div className="md:w-1/2 space-y-8">
           <div className="space-y-4">
             <h2 className="text-2xl font-bold flex items-center gap-2 mb-6">
-                  <Zap className="text-emerald-400" size={24} />
+                  <Zap className="text-primary" size={24} />
                   About Me
                 </h2>
             <div className="h-1 w-20 bg-primary rounded"></div>
@@ -105,30 +105,32 @@ export default async function Home() {
           
           <div className="space-y-6">
             <div className="flex items-start gap-4 hover:transform hover:translate-x-2 transition-transform">
-          <Code className="text-emerald-400 w-6 h-6 text-primary mt-1 flex-shrink-0" />
+          <Code className="w-6 h-6 text-primary mt-1 flex-shrink-0" />
           <p className="text-muted-foreground leading-relaxed">
             A passionate Python developer focused on creating innovative technology solutions, with expertise in web development and data analysis.
           </p>
             </div>
 
             <div className="flex items-start gap-4 hover:transform hover:translate-x-2 transition-transform">
-          <Server className="text-emerald-400 w-6 h-6 text-primary mt-1 flex-shrink-0" />
+          <Server className="w-6 h-6 text-primary mt-1 flex-shrink-0" />
           <p className="text-muted-foreground leading-relaxed">
             Experienced in building various projects from website development to complex data analysis systems, always striving to push technological boundaries.
           </p>
             </div>
 
             <div className="flex items-start gap-4 hover:transform hover:translate-x-2 transition-transform">
-          <Database className="text-emerald-400 w-6 h-6 text-primary mt-1 flex-shrink-0" />
+          <Database className="w-6 h-6 text-primary mt-1 flex-shrink-0" />
           <p className="text-muted-foreground leading-relaxed">
             Currently pursuing BSAI at Islamia College University Peshawar, focusing on Blockchain and Artificial Intelligence technologies.
           </p>
             </div>
           </div>
 
-          <Button className="mt-6 group" variant="outline">
-            <FileText className="text-emerald-400 mr-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
-            Download Resume
+          <Button asChild variant="default" className="group hover:text-white">
+            <a href="https://drive.google.com/file/d/1hSiqApIaLYrqS3JzCSGrySwuxlbJmjyj/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+              <FileText className="mr-2 h-4 w-4 group-hover:scale-110 transition-transform" />
+              Download Resume
+            </a>
           </Button>
         </div>
 
@@ -148,7 +150,7 @@ export default async function Home() {
           </div>
           
             <div className="absolute -bottom-[5%] left-[50%] transform translate-y-1/2 -translate-x-1/2">
-              <Badge className="px-6 py-2 text-lg font-medium font-bold bg-emerald-400 text-black shadow-lg border-2 flex items-center gap-3">
+              <Badge className="px-6 py-2 text-lg font-medium font-bold text-primary text-black shadow-lg border-2 flex items-center gap-3">
               <Zap className="w-5 h-5 font-bold text-black" />
               Python Developer
               </Badge>
@@ -163,7 +165,7 @@ export default async function Home() {
         <div className="container mx-auto px-4 relative z-10">
           <div className="text-center space-y-4 mb-16">
         <h2 className="text-4xl font-bold text-foreground flex items-center justify-center gap-2">
-          <Code className="text-emerald-400" size={32} />
+          <Code className="text-primary" size={32} />
           Technical Expertise
         </h2>
         <p className="text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
@@ -184,7 +186,7 @@ export default async function Home() {
           <div className="container mx-auto px-4">
             <div className="text-center space-y-4 mb-16">
           <h2 className="text-4xl font-bold text-foreground flex items-center justify-center gap-2">
-            <PenTool className="text-emerald-400" size={32} />
+            <PenTool className="text-primary" size={32} />
             Featured Projects
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
@@ -206,23 +208,23 @@ export default async function Home() {
             </div>
             <CardContent className="p-6 space-y-4">
               <div className="flex justify-between items-start">
-                <h3 className="text-2xl font-bold group-hover:text-emerald-400 transition-colors">
-              {project.title || "Untitled Project"}
+                <h3 className="text-2xl font-bold group-hover:text-primary transition-colors">
+              {project.title.length > 25 ? project.title.slice(0, 25) + "..." : project.title || "Untitled Project"}
                 </h3>
                 <div className="flex items-center gap-2">
-              <div className="flex gap-2">
-                {project.githubUrl && (
-                  <Button variant="ghost" size="icon" asChild className="hover:text-emerald-400">
-                <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
-                  <Github size={20} />
-                </a>
-                  </Button>
-                )}
-              </div>
-              <Badge variant="secondary" className="bg-emerald-400/10 text-emerald-400">
+                <div className="flex gap-2">
+                  {project.githubUrl && (
+                    <Button variant="ghost" size="icon" asChild className="hover:text-primary">
+                      <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
+                        <Github size={20} />
+                      </a>
+                    </Button>
+                  )}
+                </div>
+              <Badge variant="secondary" className="bg-emerald-400/10 text-primary">
                 {project.status || "Completed"}
               </Badge>
-              <ExternalLink className="text-muted-foreground group-hover:text-emerald-400 transition-colors" size={20} />
+              <ExternalLink className="text-muted-foreground group-hover:text-primary transition-colors" size={20} />
                 </div>
               </div>
               <p className="text-muted-foreground leading-relaxed line-clamp-2">
@@ -233,7 +235,7 @@ export default async function Home() {
               <Badge 
                 key={tech} 
                 variant="secondary"
-                className="bg-muted-foreground/10 text-muted-foreground hover:bg-emerald-400/10 hover:text-emerald-400 transition-colors"
+                className="bg-muted-foreground/10 text-muted-foreground hover:bg-emerald-400/10 hover:text-primary transition-colors"
               >
                 {tech}
               </Badge>
@@ -245,7 +247,7 @@ export default async function Home() {
           ))}
             </div>
             <div className="mt-12 text-center">
-          <Button asChild className="group hover:bg-emerald-400">
+          <Button asChild className="group hover:bg-primary hover:text-white">
             <Link href="/projects">
               View All Projects <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-2" />
             </Link>
@@ -259,7 +261,7 @@ export default async function Home() {
         <div className="container mx-auto px-4">
             <div className="text-center space-y-4 mb-16">
             <h2 className="text-4xl font-bold text-foreground flex items-center justify-center gap-2">
-              <FileText className="text-emerald-400" size={32} />
+              <FileText className="text-primary" size={32} />
               Recent Blog Posts
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
@@ -269,9 +271,11 @@ export default async function Home() {
           <div className="grid md:grid-cols-2 gap-8">
         {recentBlogPosts.slice(0, 4).map((post) => (
           <Link href={`/blog/${post.slug}`} key={post.slug} className="group">
-        <Card className="h-full transition-all duration-300 hover:shadow-xl border-2 border-muted hover:border-emerald-400/50">
+        <Card className="h-full transition-all duration-300 hover:shadow-xl border-2 border-muted hover:border-primary/50">
           <CardContent className="p-6">
-        <h3 className="text-xl font-semibold mb-2 group-hover:text-emerald-400 transition-colors">{post.title}</h3>
+        <h3 className="text-xl font-semibold mb-2 group-hover:text-primary transition-colors">
+        {post.title.length > 45 ? post.title.slice(0, 50) + "..." : post.title || "Untitled Post"}
+          </h3>
         <p className="text-muted-foreground mb-4 text-sm">
           {post.date} • {post.readTime} read
         </p>
@@ -280,7 +284,7 @@ export default async function Home() {
         <Badge 
           key={category} 
           variant="outline" 
-          className="transition-colors duration-300 hover:bg-emerald-400/10 hover:text-emerald-400"
+          className="transition-colors duration-300 hover:bg-primary/10 hover:text-primary"
         >
           {category}
         </Badge>
@@ -292,7 +296,7 @@ export default async function Home() {
         ))}
           </div>
           <div className="mt-12 text-center">
-        <Button asChild className="group hover:bg-emerald-400">
+        <Button asChild className="group hover:bg-primary hover:text-white">
           <Link href="/blog">
         View All Blog Posts <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-2" />
           </Link>
@@ -307,7 +311,7 @@ export default async function Home() {
           <div className="max-w-4xl mx-auto">
             <div className="text-center space-y-6 mb-12">
               <h2 className="text-4xl font-bold text-foreground flex items-center justify-center gap-2">
-                <Mail className="text-emerald-400" size={32} />
+                <Mail className="text-primary" size={32} />
                 Let's Connect
               </h2>
               <p className="text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
@@ -317,8 +321,8 @@ export default async function Home() {
             </div>
 
             <div className="grid md:grid-cols-3 gap-6 mb-12">
-              <Card className="p-6 text-center hover:border-emerald-400/50 transition-colors group">
-                <Mail className="mx-auto mb-4 text-emerald-400 h-8 w-8 group-hover:scale-110 transition-transform" />
+              <Card className="p-6 text-center hover:border-primary/50 transition-colors group">
+                <Mail className="mx-auto mb-4 text-primary h-8 w-8 group-hover:scale-110 transition-transform" />
                 <h3 className="font-semibold mb-2">Email</h3>
                 <p className="text-muted-foreground mb-4">Send Your Query</p>
                 <Button asChild variant="outline" className="w-full hover:bg-black hover:text-white">
@@ -328,8 +332,8 @@ export default async function Home() {
                 </Button>
               </Card>
 
-              <Card className="p-6 text-center hover:border-emerald-400/50 transition-colors group">
-                <Linkedin className="mx-auto mb-4 text-emerald-400 h-8 w-8 group-hover:scale-110 transition-transform" />
+              <Card className="p-6 text-center hover:border-primary/50 transition-colors group">
+                <Linkedin className="mx-auto mb-4 text-primary h-8 w-8 group-hover:scale-110 transition-transform" />
                 <h3 className="font-semibold mb-2">LinkedIn</h3>
                 <p className="text-muted-foreground mb-4">Connect professionally</p>
                 <Button asChild variant="outline" className="w-full hover:bg-black hover:text-white">
@@ -339,8 +343,8 @@ export default async function Home() {
                 </Button>
               </Card>
 
-              <Card className="p-6 text-center hover:border-emerald-400/50 transition-colors group">
-                <Github className="mx-auto mb-4 text-emerald-400 h-8 w-8 group-hover:scale-110 transition-transform" />
+              <Card className="p-6 text-center hover:border-primary/50 transition-colors group">
+                <Github className="mx-auto mb-4 text-primary h-8 w-8 group-hover:scale-110 transition-transform" />
                 <h3 className="font-semibold mb-2">GitHub</h3>
                 <p className="text-muted-foreground mb-4">Check out my code</p>
                 <Button asChild variant="outline" className="w-full hover:bg-black hover:text-white">
@@ -352,8 +356,8 @@ export default async function Home() {
             </div>
 
             <div className="text-center">
-              <Button asChild variant="default" className="group hover:bg-emerald-400">
-                <a href="/path-to-your-resume.pdf" target="_blank" rel="noopener noreferrer">
+              <Button asChild variant="default" className="group hover:bg-primary hover:text-white">
+                <a href="https://drive.google.com/file/d/1hSiqApIaLYrqS3JzCSGrySwuxlbJmjyj/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                   <FileText className="mr-2 h-4 w-4 group-hover:scale-110 transition-transform" />
                   Download Resume
                 </a>

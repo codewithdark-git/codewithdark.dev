@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ['placeholder.com'],
+    domains: ['unsplash.com'],
   },
   webpack: (config, { isServer }) => {
     config.module.rules.push({

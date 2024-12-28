@@ -28,12 +28,12 @@ export function SocialLinksDialog() {
         </DialogHeader>
         <div className="grid gap-4 py-4">
           <Button asChild className="w-full">
-            <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/codewithdark-git" target="_blank" rel="noopener noreferrer">
               GitHub
             </a>
           </Button>
           <Button asChild className="w-full">
-            <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">
+            <a href="https://linkedin.com/in/codewithdark" target="_blank" rel="noopener noreferrer">
               LinkedIn
             </a>
           </Button>
@@ -43,7 +43,7 @@ export function SocialLinksDialog() {
             </a>
           </Button>
           <Button asChild variant="outline" className="w-full">
-            <a href="https://linktr.ee/yourusername" target="_blank" rel="noopener noreferrer">
+            <a href="https://linktr.ee/codewithdark" target="_blank" rel="noopener noreferrer">
               Linktree
             </a>
           </Button>
