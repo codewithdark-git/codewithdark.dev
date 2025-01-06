@@ -1,14 +1,11 @@
 ---
-title: "Getting Started with Next.js: A Beginner's Guide"
-date: "2023-06-15"
-readTime: "5 min"
-categories: ["Web Development", "React", "Next.js"]
+title: "Implementing Polynomial Regression from Scratch in Python"
+date: "2024-10-15"
+readTime: "7 min"
+category: "Machine Learning", "Python", "Scratch", "Sklearn"
 ---
 
 
-# Implementing and Comparing Polynomial Regression from Scratch in Python
-
-![Polynomial Regression Header Image](images/header_animated_complex.gif)
 
 ## Introduction
 Polynomial regression extends linear regression by modeling nonlinear relationships using polynomial terms. In this comprehensive guide, we'll implement polynomial regression from scratch, compare it with scikit-learn's implementation, and explore optimization techniques.
