@@ -2,7 +2,7 @@
 title: "Implementing Polynomial Regression from Scratch in Python"
 date: "2024-10-15"
 readTime: "7 min"
-category: "Machine Learning", "Python", "Scratch", "Sklearn"
+category: ["Machine Learning", "Python", "Scratch", "Sklearn"]
 ---
 
 

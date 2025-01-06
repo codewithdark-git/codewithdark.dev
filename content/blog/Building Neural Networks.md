@@ -2,7 +2,7 @@
 title: "Building Neural Networks: From Fundamentals to Implementation"
 date: "2023-06-20"
 readTime: "7 min"
-categories: ["Programming", "Python"]
+categories: ["Machine Learning", "Python", "Scratch", "Deep Learning"]
 ---
 
 ![](https://raw.githubusercontent.com/codewithdark-git/ML-Algorithms-From-Scratch/88da3d72945397d913a1cafbc8d4280bd80538c7/neural_networks/animation.gif)

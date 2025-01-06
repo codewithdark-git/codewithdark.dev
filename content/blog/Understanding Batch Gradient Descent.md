@@ -2,7 +2,7 @@
 title: "Understanding Batch Gradient Descent: A Comprehensive Guide"
 date: "2023-06-15"
 readTime: "5 min"
-categories: ["Web Development", "React", "Next.js"]
+categories: ["Machine Learning", "Python", "Scratch", "Sklearn"]
 ---
 
 Gradient descent is the workhorse of modern machine learning, powering everything from simple linear regression to complex neural networks. In this comprehensive guide, we'll dive deep into batch gradient descent, understanding how it works, its advantages and limitations, and when to use it.
