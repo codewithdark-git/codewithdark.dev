@@ -47,6 +47,11 @@ export function SocialLinksDialog() {
               Linktree
             </a>
           </Button>
+          <Button asChild variant="outline" className="w-full">
+            <a href="https://github.com/XCOllab" target="_blank" rel="noopener noreferrer">
+              Join XCOllab
+            </a>
+          </Button>
         </div>
       </DialogContent>
     </Dialog>
