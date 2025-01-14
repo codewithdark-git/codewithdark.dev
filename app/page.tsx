@@ -68,7 +68,7 @@ export default async function Home() {
           </div>
           <div className="flex text-xl items-center gap-2">
             <Github className="text-primary" size={30} />
-            <span>X Collab<span className="text-primary" lang="en">OpenSource Community</span></span>
+            <span>X Collab <span className="text-primary" lang="en">OpenSource Community on GitHub</span></span>
           </div>
         </div>
         
