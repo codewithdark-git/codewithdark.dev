@@ -32,7 +32,7 @@ export default async function BlogPage() {
           <div className="flex-1 space-y-4">
             <Link href={`/blog/${post.slug}`} className="block group-hover:transform group-hover:-translate-y-0.5 transition-transform">
             <h2 className="text-2xl md:text-3xl font-bold bg-gradient-to-r from-white to-gray-300 bg-clip-text text-transparent truncate mb-3">
-              {post.title}
+              {post.title.length > 50 ? post.title.slice(0, 50) + "..." : post.title || "Untitled Post"}
             </h2>
             <div className="flex flex-wrap gap-2 mb-6">
               {post.categories.map((category: string) => (
