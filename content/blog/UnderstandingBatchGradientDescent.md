@@ -1,6 +1,6 @@
 ---
 title: "Understanding Batch Gradient Descent: A Comprehensive Guide"
-date: "2023-06-15"
+date: "2024-09-15"
 readTime: "5 min"
 categories: ["Machine Learning", "Python", "Scratch", "Sklearn"]
 ---

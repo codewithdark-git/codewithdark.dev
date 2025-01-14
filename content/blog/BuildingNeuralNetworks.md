@@ -1,6 +1,6 @@
 ---
 title: "Building Neural Networks: From Fundamentals to Implementation"
-date: "2023-06-20"
+date: "2024-10-20"
 readTime: "7 min"
 categories: ["Machine Learning", "Python", "Scratch", "Deep Learning"]
 ---

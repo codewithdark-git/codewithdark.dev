@@ -60,11 +60,15 @@ export default async function Home() {
         <div className="space-y-4 text-xl text-muted-foreground">
           <div className="flex items-center gap-2">
             <Rocket className="text-primary" size={30} />
-            <span>Currently specializing in Python & Web Development</span>
+            <span>Currently specializing in Python & AI/ML</span>
           </div>
           <div className="flex text-xl items-center gap-2">
             <Zap className="text-primary" size={30} />
             <span>Student at <span className="text-primary" lang="en">Islamia College University</span></span>
+          </div>
+          <div className="flex text-xl items-center gap-2">
+            <Github className="text-primary" size={30} />
+            <span>X Collab<span className="text-primary" lang="en">OpenSource Community</span></span>
           </div>
         </div>
         
