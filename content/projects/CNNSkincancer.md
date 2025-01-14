@@ -5,7 +5,7 @@ technologies: ["Python", "Machine learning", "Numpy", "CNN", "pytorch"]
 image: "https://unsplash.com/photos/green-and-red-light-wallpaper-n6B49lTx7NM"
 githubUrl: "https://github.com/codewithdark-git/Melanoma-Skin-Cancer-CNN.git"
 liveUrl: ""
-category: ["Machine Learning", "DeepLearning", "python"]
+category: "Machine Learning"
 ---
 
 
