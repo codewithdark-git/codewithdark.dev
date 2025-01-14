@@ -48,8 +48,8 @@ export function SocialLinksDialog() {
             </a>
           </Button>
           <Button asChild variant="outline" className="w-full">
-            <a href="https://github.com/XCOllab" target="_blank" rel="noopener noreferrer">
-              Join XCOllab
+            <a href="https://github.com/XCollab" target="_blank" rel="noopener noreferrer">
+              Join XCollab
             </a>
           </Button>
         </div>
