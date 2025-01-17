@@ -26,9 +26,9 @@ Let's break down the key mathematical components that make neural networks work.
 
 ### Data Preparation
 
-First, we need to prepare our data. Given a dataset $$\mathbf{X} \in \mathbb{R}^{m \times n}$$, where:
-- $$m$$ is the number of samples
-- $$n$$ is the number of features
+First, we need to prepare our data. Given a dataset $\mathbf{X} \in \mathbb{R}^{m \times n}$, where:
+- $m$ is the number of samples
+- $n$ is the number of features
 
 We split it into:
 - Training set (80%): $$\mathbf{X}_{\text{train}}$$
