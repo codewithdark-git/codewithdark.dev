@@ -131,7 +131,7 @@ export default async function Home() {
           </div>
 
           <Button asChild variant="default" className="group hover:text-white">
-            <a href="https://docs.google.com/document/d/1d2y3dlBgCeLsbNNvvy0sH_XQtKR5DMYSdKfwQYS4MDg/edit?usp=drive_link" target="_blank" rel="noopener noreferrer">
+            <a href="https://drive.google.com/file/d/1zLwotXdF8OJuIPc-R6-k8LLYdNZbcwTH/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
               <FileText className="mr-2 h-4 w-4 group-hover:scale-110 transition-transform" />
               Download Resume
             </a>
@@ -361,7 +361,7 @@ export default async function Home() {
 
             <div className="text-center">
               <Button asChild variant="default" className="group hover:bg-primary hover:text-white">
-                <a href="https://docs.google.com/document/d/1d2y3dlBgCeLsbNNvvy0sH_XQtKR5DMYSdKfwQYS4MDg/edit?usp=drive_link" target="_blank" rel="noopener noreferrer">
+                <a href="https://drive.google.com/file/d/1zLwotXdF8OJuIPc-R6-k8LLYdNZbcwTH/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
                   <FileText className="mr-2 h-4 w-4 group-hover:scale-110 transition-transform" />
                   Download Resume
                 </a>
