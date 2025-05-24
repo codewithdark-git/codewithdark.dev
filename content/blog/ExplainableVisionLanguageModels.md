@@ -1,4 +1,9 @@
-# 🧠 Explainable Vision-Language Models: Bridging the Trust Gap in Medical AI Diagnosis
+---
+title: "Explainable Vision-Language Models: Bridging the Trust Gap in Medical AI Diagnosis"
+date: "2025-05-25"
+readTime: "10 min"
+categories: ["Research", "VLMs", "Medical", "Deep Learning"]
+---
 
 **By Ahsan Umar | Islamia College University Peshawar | May 2025**
 
