@@ -53,22 +53,26 @@ export default async function Home() {
                 </h1>
             </div>
           <h2 className="text-3xl font-bold text-gray-300">
-                  Software Engineer. <span className="text-gray-500">A self-taught developer with an interest in Computer Science.</span>
+                  AI/ML Engineer & Researcher. <span className="text-gray-500">Specializing in NLP, Computer Vision, and Large Language Models.</span>
                 </h2>
         </div>
         
         <div className="space-y-4 text-xl text-muted-foreground">
           <div className="flex items-center gap-2">
             <Rocket className="text-primary" size={30} />
-            <span>Currently specializing in Python & AI/ML</span>
+            <span>Expert in AI/ML, NLP, CV & LLM Development</span>
           </div>
           <div className="flex text-xl items-center gap-2">
             <Zap className="text-primary" size={30} />
-            <span>Student at <span className="text-primary" lang="en">Islamia College University</span></span>
+            <span>BS in Artificial Intelligence at <span className="text-primary" lang="en">Islamia College University, Peshawar</span></span>
           </div>
           <div className="flex text-xl items-center gap-2">
             <Github className="text-primary" size={30} />
-            <span>X Collab <span className="text-primary" lang="en">OpenSource Community on GitHub</span></span>
+            <span>Contributor to <span className="text-primary" lang="en">OpenSource Community on GitHub</span></span>
+          </div>
+          <div className="flex text-xl items-center gap-2">
+            <MapPin className="text-primary" size={30} />
+            <span>Based in Peshawar, Pakistan</span>
           </div>
         </div>
         
@@ -111,27 +115,27 @@ export default async function Home() {
             <div className="flex items-start gap-4 hover:transform hover:translate-x-2 transition-transform">
           <Code className="w-6 h-6 text-primary mt-1 flex-shrink-0" />
           <p className="text-muted-foreground leading-relaxed">
-            A passionate Python developer focused on creating innovative technology solutions, with expertise in web development and data analysis.
+            An AI/ML Engineer and Researcher with expertise in building advanced RAG systems, fine-tuning LLMs, and developing computer vision solutions.
           </p>
             </div>
 
             <div className="flex items-start gap-4 hover:transform hover:translate-x-2 transition-transform">
           <Server className="w-6 h-6 text-primary mt-1 flex-shrink-0" />
           <p className="text-muted-foreground leading-relaxed">
-            Experienced in building various projects from website development to complex data analysis systems, always striving to push technological boundaries.
+            Experienced in deploying serverless AI solutions on AWS and GCP, with a focus on optimizing inference speed and cost.
           </p>
             </div>
 
             <div className="flex items-start gap-4 hover:transform hover:translate-x-2 transition-transform">
           <Database className="w-6 h-6 text-primary mt-1 flex-shrink-0" />
           <p className="text-muted-foreground leading-relaxed">
-            Currently pursuing BSAI at Islamia College University Peshawar, focusing on Blockchain and Artificial Intelligence technologies.
+            Currently pursuing BS in Artificial Intelligence at Islamia College University, Peshawar (2021-2027), with a focus on innovative AI technologies.
           </p>
             </div>
           </div>
 
           <Button asChild variant="default" className="group hover:text-white">
-            <a href="https://drive.google.com/file/d/1zLwotXdF8OJuIPc-R6-k8LLYdNZbcwTH/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+            <a href="https://drive.google.com/file/d/1JN-Qr2h75bXWXCrV0bPhbEQhJ66rschx/view?usp=sharing" target="_blank" rel="noopener noreferrer">
               <FileText className="mr-2 h-4 w-4 group-hover:scale-110 transition-transform" />
               Download Resume
             </a>
@@ -145,7 +149,7 @@ export default async function Home() {
             <div className="relative bg-background rounded-2xl overflow-hidden shadow-xl">
           <Image
             src="/images/AhsanUmar.png"
-            alt="Ahsan Khan"
+            alt="Ahsan Umar"
             width={300}
             height={300}
             className="object-cover transition-transform duration-300 group-hover:scale-105"
@@ -156,7 +160,7 @@ export default async function Home() {
             <div className="absolute -bottom-[5%] left-[50%] transform translate-y-1/2 -translate-x-1/2">
               <Badge className="px-6 py-2 text-lg font-medium font-bold text-primary text-black shadow-lg border-2 flex items-center gap-3">
               <Zap className="w-5 h-5 font-bold text-black" />
-              Python Developer
+              AI/ML Engineer
               </Badge>
             </div>
         </div>
@@ -173,8 +177,7 @@ export default async function Home() {
           Technical Expertise
         </h2>
         <p className="text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-          Exploring and mastering a diverse range of technologies, from backend systems to frontend frameworks. 
-          Here's my evolving tech stack that powers both professional and personal innovations.
+          Proficient in a wide range of AI/ML technologies, including LangChain, Hugging Face Transformers, AWS, and GCP, with a focus on NLP and computer vision.
         </p>
           </div>
           <div className="relative">
@@ -194,11 +197,40 @@ export default async function Home() {
             Featured Projects
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            A collection of my most notable works, showcasing various technologies and problem-solving approaches.
+            Showcasing innovative AI/ML projects, from RAG pipelines to computer vision and LLM fine-tuning.
           </p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
-          {featuredProjects.slice(0, 4).map((project) => (
+          {[
+            {
+              slug: "enterprise-rag",
+              title: "Enterprise RAG System",
+              description: "Designed and built a modular RAG pipeline using LangChain, FAISS, and Sentence Transformers, deployed on AWS Lambda with 40% improved retrieval accuracy.",
+              technologies: ["LangChain", "FAISS", "AWS Lambda", "Sentence Transformers"],
+              status: "Completed"
+            },
+            {
+              slug: "llm-finetuning",
+              title: "LLM Fine-tuning Pipeline",
+              description: "Created a pipeline for fine-tuning BERT on GLUE4 using Hugging Face Transformers, deployed as serverless endpoints on AWS SageMaker.",
+              technologies: ["Hugging Face", "AWS SageMaker", "BERT"],
+              status: "Completed"
+            },
+            {
+              slug: "notemaster-ai",
+              title: "NoteMaster-AI",
+              description: "Built an OCR+LLM application using Tesseract and GPT-4/Claude 3 to extract and summarize handwritten notes, deployed on GCP Cloud Run.",
+              technologies: ["Tesseract", "GPT-4", "Claude 3", "GCP Cloud Run"],
+              status: "Completed"
+            },
+            {
+              slug: "medical-imaging",
+              title: "Medical Imaging Analysis",
+              description: "Implemented a CNN-Transformer hybrid model for medical image classification with Grad-CAM for explainability, achieving competitive accuracy.",
+              technologies: ["CNN", "Transformer", "Grad-CAM"],
+              status: "Completed"
+            }
+          ].map((project) => (
             <Link href={`/projects/${project.slug}`} key={project.slug} className="group">
               <Card className="h-full hover:shadow-xl transition-all duration-300 border-2 border-muted overflow-hidden">
             <div className="relative h-48 w-full overflow-hidden">
@@ -269,7 +301,7 @@ export default async function Home() {
               Recent Blog Posts
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Exploring ideas, sharing insights, and documenting my journey in software development.
+              Sharing insights and experiences in AI/ML, NLP, and computer vision through my development journey.
             </p>
             </div>
           <div className="grid md:grid-cols-2 gap-8">
@@ -319,8 +351,7 @@ export default async function Home() {
                 Let's Connect
               </h2>
               <p className="text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-                Whether you have a project in mind, a question about my work, or just want to say hello, 
-                I'm always excited to connect with fellow developers and potential collaborators.
+                Interested in collaborating on AI/ML projects or discussing innovative solutions? Reach out to explore opportunities or share ideas.
               </p>
             </div>
 
@@ -361,7 +392,7 @@ export default async function Home() {
 
             <div className="text-center">
               <Button asChild variant="default" className="group hover:bg-primary hover:text-white">
-                <a href="https://drive.google.com/file/d/1zLwotXdF8OJuIPc-R6-k8LLYdNZbcwTH/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+                <a href="https://drive.google.com/file/d/1JN-Qr2h75bXWXCrV0bPhbEQhJ66rschx/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                   <FileText className="mr-2 h-4 w-4 group-hover:scale-110 transition-transform" />
                   Download Resume
                 </a>
