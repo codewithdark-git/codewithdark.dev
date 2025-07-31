@@ -201,36 +201,7 @@ export default async function Home() {
           </p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
-          {[
-            {
-              slug: "enterprise-rag",
-              title: "Enterprise RAG System",
-              description: "Designed and built a modular RAG pipeline using LangChain, FAISS, and Sentence Transformers, deployed on AWS Lambda with 40% improved retrieval accuracy.",
-              technologies: ["LangChain", "FAISS", "AWS Lambda", "Sentence Transformers"],
-              status: "Completed"
-            },
-            {
-              slug: "llm-finetuning",
-              title: "LLM Fine-tuning Pipeline",
-              description: "Created a pipeline for fine-tuning BERT on GLUE4 using Hugging Face Transformers, deployed as serverless endpoints on AWS SageMaker.",
-              technologies: ["Hugging Face", "AWS SageMaker", "BERT"],
-              status: "Completed"
-            },
-            {
-              slug: "notemaster-ai",
-              title: "NoteMaster-AI",
-              description: "Built an OCR+LLM application using Tesseract and GPT-4/Claude 3 to extract and summarize handwritten notes, deployed on GCP Cloud Run.",
-              technologies: ["Tesseract", "GPT-4", "Claude 3", "GCP Cloud Run"],
-              status: "Completed"
-            },
-            {
-              slug: "medical-imaging",
-              title: "Medical Imaging Analysis",
-              description: "Implemented a CNN-Transformer hybrid model for medical image classification with Grad-CAM for explainability, achieving competitive accuracy.",
-              technologies: ["CNN", "Transformer", "Grad-CAM"],
-              status: "Completed"
-            }
-          ].map((project) => (
+          {featuredProjects.slice(0, 4).map((project) => (
             <Link href={`/projects/${project.slug}`} key={project.slug} className="group">
               <Card className="h-full hover:shadow-xl transition-all duration-300 border-2 border-muted overflow-hidden">
             <div className="relative h-48 w-full overflow-hidden">
