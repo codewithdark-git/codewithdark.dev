@@ -35,9 +35,9 @@ const inter = localFont({
 })
 
 export const metadata: Metadata = {
-  title: "Ahsan Khan - Python Developer",
+  title: "Ahsan Umar - AI/ML Engineer & Researcher. ",
   description:
-    "Portfolio of Ahsan Khan, a Python developer specializing in web development and data analysis.",
+    "Specializing in NLP, Computer Vision, and Large Language Models.",
   icons: {
     icon: "/favicon.png",
     apple: [
