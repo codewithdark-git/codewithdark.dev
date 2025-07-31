@@ -66,7 +66,7 @@ export default function RootLayout({
                   <div className="space-y-4 text-center">
                     <h3 className="text-lg font-semibold">Ahsan Umar</h3>
                     <p className="text-muted-foreground">
-                      Software Engineer specializing in Python & Web Development
+                      AI/ML Engineer & Researcher. <span className="text-gray-500">Specializing in NLP, Computer Vision, and Large Language Models.
                     </p>
                   </div>
                   <div className="space-y-4 text-center">
